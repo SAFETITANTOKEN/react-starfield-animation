@@ -4,7 +4,7 @@ var React = require("react");
 var ReactDOM = require("react-dom");
 var invariant = require("invariant");
 var throttleDebounce = require("throttle-debounce");
-var createResizeDetector = require("element-resize-detector");
+var createResizeDetector = require("./element-resize-detector");
 var isShallowEqual = require("shallowequal");
 
 function _interopDefaultLegacy(e) {
