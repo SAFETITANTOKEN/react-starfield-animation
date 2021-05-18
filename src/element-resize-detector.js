@@ -2101,7 +2101,7 @@
               error: noop,
             };
 
-            if (!quiet && window.console) {
+            if (!quiet && window?.console) {
               var attachFunction = function (reporter, name) {
                 //The proxy is needed to be able to call the method with the console context,
                 //since we cannot use bind.
